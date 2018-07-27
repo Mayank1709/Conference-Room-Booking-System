@@ -1,0 +1,185 @@
+img{
+	width:300px;
+	height:200px;
+	text-align:center;
+}
+th{
+	font-size:2em;
+	background:rgba(218,234,213,0.60);
+	padding:10px;
+}
+p{
+	display:inline-block;
+	verical-align:middle;
+	horizontal-align:middle;
+	background-position:center;
+	//margin-left:35%;
+	margin-top:2%;
+	border-radius:5px;
+	text-decoration:none;
+	padding:1%;
+	color:#000000;
+	width:97%;
+	height:50%;
+	background:rgba(218,234,213,0.60);
+	text-align:center;
+	font-weight:bold;
+}
+h3{
+	display:inline-block;
+	verical-align:middle;
+	horizontal-align:middle;
+	background-position:center;
+	//margin-left:35%;
+	margin-top:2%;
+	border-radius:5px;
+	text-decoration:none;
+	padding:1%;
+	color:#000000;
+	width:97%;
+	height:50%;
+	background:rgba(218,234,213,0.60);
+	text-align:center;
+	font-weight:bold;
+}
+h4{
+	font-size:150%;
+	display:inline-block;
+	verical-align:middle;
+	horizontal-align:middle;
+	background-position:center;
+	//margin-left:35%;
+	margin-top:2%;
+	border-radius:5px;
+	text-decoration:none;
+	padding:1%;
+	//padding-top:10%;
+	color:#000000;
+	width:97%;
+	height:50%;
+	background:rgba(218,234,213,0.60);
+	text-align:center;
+	font-weight:bold;
+}
+body{
+	background: url("images/roomsback1.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1{
+	text-align:center;
+	color:#FFFFFF;
+	font-size:x-large;
+	text-transform:UPPERCASE;
+	font-family:Times New Roman;
+}
+table{
+	width:100%;
+}
+td{
+	background:rgba(218,234,213,0.60);
+	//width:100%;
+	padding-top:30px;
+	padding-left:145px;
+	padding-right:75px;
+	//margin-top:2%;
+}
+a:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+h5{
+	font-size:100%;
+	display:inline-block;
+	verical-align:middle;
+	horizontal-align:middle;
+	background-position:center;
+	//margin-left:35%;
+	margin-top:2%;
+	border-radius:5px;
+	text-decoration:none;
+	padding:1%;
+	//padding-top:10%;
+	color:#FFFFFF;
+	width:295px;
+	height:50%;
+	background:rgba(0,0,0,1);
+	text-align:center;
+	font-weight:bold;
+}
+@media only screen and (min-width : 300px) and (max-width : 820px) {
+	img{
+		 width:80%;
+		 height:50%;
+		overflow:hidden;
+	}
+}
+@media only screen and (min-width : 300px) and (max-width : 820px) {
+	body{
+		background: url("images/roomsback1.jpg") no-repeat center center fixed;
+		-webkit-background-size: 100%; 
+    		-moz-background-size: 100%; 
+    		-o-background-size: 100%; 
+    		background-size: 100%; 
+    		-webkit-background-size: cover; 
+    		-moz-background-size: cover; 
+   	 	-o-background-size: cover; 
+   	 	background-size: cover
+	}
+}
+@media only screen and (min-width : 300px) and (max-width : 820px)  {
+
+	/* Force table to not be like tables anymore */
+	tr{
+		display:block;
+		//overflow:hidden;
+	}
+	td{
+		display:block;
+		margin:0%;
+		//overflow:hidden;
+		padding:5%;
+		padding-left:18%;
+		padding-right:0%;
+	}
+	th{
+		display:block;
+		//padding:5%;
+		//padding-left:8%;
+		text-align:center;
+		//margin:12%;
+		margin-left:17%;
+		margin-right:17%;
+		margin-top:7%;
+		//overflow:hidden;
+	}
+	h5{
+	font-size:100%;
+	//display:inline-block;
+	//verical-align:middle;
+	//horizontal-align:middle;
+	//background-position:center;
+	//margin-left:35%;
+	margin-top:2%;
+	border-radius:5px;
+	text-decoration:none;
+	padding:1%;
+	//padding-top:10%;
+	color:#FFFFFF;
+	//width:295px;
+	width:80%;
+	height:50%;
+	background:rgba(0,0,0,1);
+	text-align:center;
+	font-weight:bold;
+	}
+}
+span.highlight{
+	background-color: black;
+	padding:1%;
+	border-radius: 3px;
+}
